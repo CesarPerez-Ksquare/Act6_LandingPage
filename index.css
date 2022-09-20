@@ -32,8 +32,6 @@ section {
     flex: 0 1 auto;
 }
 
-
-
 header {
     display: flex;
     flex-flow: column wrap;
