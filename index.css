@@ -1,0 +1,164 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.pageBox {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+    order: 0;
+    flex: 3 1 auto;
+}
+
+.loginBox {
+    background-color: white;
+    height: 60%;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 0 1 auto;
+}
+
+
+
+header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    row-gap: 10px;
+    padding-bottom: 20px;
+    font-weight: bold;
+
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 73%;
+    padding-bottom: 20px;
+}
+
+fieldset {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    border: none;
+}
+
+legend {
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 0.7em;
+}
+
+.buttonsBox {
+    display: flex;
+    flex-flow: column wrap;
+    height: 35%;
+}
+
+button {
+    background-color: black;    
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 35%;
+    font-size: 0.7em;
+    font-family: arial;
+    font-weight: 600;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.RememberForgot {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 5em;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: arial;
+    font-size: 0.7em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: calibri light;
+    font-weight: 600;
+    font-size: 2.2em;
+}
+
+p {
+    color: gray;
+    font-size: 0.9em;
+    font-family: calibri light;
+}
+
+label {
+    color: darkslategray;
+    font-weight: bold;
+}
+
+input {
+    border-radius: 5px;
+    border-color: cyan;
+    border-width: 0.1px;
+    border-style: ridge;
+    padding: 8px 8px;
+}
+
+aside {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    background-image: url(image.jpg);
+    background-color: white;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50%;
+    order: 1;
+}
+
+.banner {
+    background-color: tran;
+    height: 35vh;
+    margin: 0 2vw 10vh 2vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    padding: 3vw;
+    text-align: justify;
+    backdrop-filter: blur(10px);
+    color: whitesmoke;
+}
